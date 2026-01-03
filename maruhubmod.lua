@@ -3616,7 +3616,7 @@ Disc_Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Disc_Logo.BorderSizePixel = 0
 Disc_Logo.Position = UDim2.new(0, 5, 0, 1)
 Disc_Logo.Size = UDim2.new(0, 23, 0, 23)
-Disc_Logo.Image = "http://www.roblox.com/asset/?id=100306458933414"
+Disc_Logo.Image = "http://www.roblox.com/asset/?id=133786721407992"
 
 Disc_Title.Name = "Disc_Title"
 Disc_Title.Parent = Discord
@@ -3647,12 +3647,12 @@ end)
 
 -- Click event: copy Discord link
 Discord.MouseButton1Click:Connect(function()
-    (setclipboard or toclipboard)("https://discord.gg/vtgWe5V9bd")
+    (setclipboard or toclipboard)("https://discord.gg/4HUK3QK9A")
     wait(.1)
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Nak Hub ",
+        Title = "MonsterX ",
         Text = "Discord",
-        Button1 = "🌹",
+        Button1 = "Đã Sao Chép",
         Duration = 20
     })
 end)
@@ -11912,9 +11912,9 @@ end
 game:GetService("StarterGui"):SetCore(
     "SendNotification",
     {
-        Title = "Nak Hub ",
+        Title = "MonsterX",
         Text = "Đã Tải Xong",
-        Icon = "rbxassetid://100306458933414",
+        Icon = "rbxassetid://133786721407992",
         Duration = 5
     }
 )
